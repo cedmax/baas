@@ -1,5 +1,5 @@
 ## Introduction
-Baas (Blasfemy as a Service) provides a modern, RESTful, scalable solution to the common problem of swearing.</p>
+Baas (Blasphemy as a Service) provides a modern, RESTful, scalable solution to the common problem of swearing.</p>
 
 ## Content Negotiation
 
@@ -47,6 +47,3 @@ __All contributions are very welcome.__
 
 Fork me on [github](https://github.com/dsgn/baas)  
 Created by [@cedmax](http://twitter.com/cedmax)
-
-
-_- ced_

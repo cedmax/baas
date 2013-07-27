@@ -9,7 +9,7 @@
 
     Pages.home = function() {
         this.acronym = 'Baas';
-        this.extended = 'Blasfemy as a Service';
+        this.extended = 'Blasphemy as a Service';
         this.title = this.acronym + ' (' + this.extended + ')';
 
 		var appConf = this.app.express.settings;

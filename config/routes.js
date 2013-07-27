@@ -8,17 +8,17 @@
 module.exports = function routes() {
   'use strict';
   this.root('pages#home');
-  this.match('swear/:divinity/:animal', 'blasfemy#swear');
-  this.match('swear/:divinity/:animal/:author', 'blasfemy#swear');
-  this.match('sake/:divinity', 'blasfemy#sake');
-  this.match('sake/:divinity/:author', 'blasfemy#sake');
-  this.match('holy/:divinity', 'blasfemy#holy');
-  this.match('holy/:divinity/:author', 'blasfemy#holy');
-  this.match('ohmy/:divinity', 'blasfemy#ohmy');
-  this.match('ohmy/:divinity/:author', 'blasfemy#ohmy');
-  this.match('blood/:divinity', 'blasfemy#blood');
-  this.match('blood/:divinity/:author', 'blasfemy#blood');
-  this.match('nails/:divinity', 'blasfemy#nails');
-  this.match('nails/:divinity/:author', 'blasfemy#nails');
+  this.match('swear/:divinity/:animal', 'blasphemy#swear');
+  this.match('swear/:divinity/:animal/:author', 'blasphemy#swear');
+  this.match('sake/:divinity', 'blasphemy#sake');
+  this.match('sake/:divinity/:author', 'blasphemy#sake');
+  this.match('holy/:divinity', 'blasphemy#holy');
+  this.match('holy/:divinity/:author', 'blasphemy#holy');
+  this.match('ohmy/:divinity', 'blasphemy#ohmy');
+  this.match('ohmy/:divinity/:author', 'blasphemy#ohmy');
+  this.match('blood/:divinity', 'blasphemy#blood');
+  this.match('blood/:divinity/:author', 'blasphemy#blood');
+  this.match('nails/:divinity', 'blasphemy#nails');
+  this.match('nails/:divinity/:author', 'blasphemy#nails');
 };
 
