@@ -79,6 +79,19 @@
         render(this, obj);
     };
 
+    BlasphemyController.bloody = function() {
+        var divinity = normalizeDivinity(this.param("divinity"));
+
+        var obj = {
+            message: "Bloody " + divinity + "!",
+            subtitle: (this.param("author"))? "- " + this.param("author"): ""
+        };
+
+        this._getGa();
+		_.extend(this, obj);
+        render(this, obj);
+    };
+
     BlasphemyController.blood = function() {
         var divinity = normalizeDivinity(this.param("divinity"));
 

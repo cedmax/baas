@@ -18,6 +18,8 @@ module.exports = function routes() {
   this.match('ohmy/:divinity/:author', 'blasphemy#ohmy');
   this.match('blood/:divinity', 'blasphemy#blood');
   this.match('blood/:divinity/:author', 'blasphemy#blood');
+  this.match('bloody/:divinity', 'blasphemy#bloody');
+  this.match('bloody/:divinity/:author', 'blasphemy#bloody');
   this.match('nails/:divinity', 'blasphemy#nails');
   this.match('nails/:divinity/:author', 'blasphemy#nails');
 };

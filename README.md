@@ -26,6 +26,10 @@ _e.g.: /holy/jesus/ced will return 'Holy Jesus! - ced'_
 Will return content of the form 'By the blood of :Divinity! - :from'  
 _e.g.: /blood/god/ced will return 'By the blood of God! - ced'_
 
+### /bloody/:divinity[/:from]
+Will return content of the form 'Bloody :Divinity! - :from'  
+_e.g.: /blood/god/ced will return 'Bloody God! - ced'_
+
 ### /ohmy/:divinity[/:from]
 Will return content of the form 'Oh my fucking :Divinity'! - :from'  
 _e.g.: /ohmy/lord/ced will return 'Oh my fucking Lord! - ced'_
