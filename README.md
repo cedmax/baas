@@ -45,7 +45,7 @@ _e.g.: /nails/jesus/ced will return 'By Jesus' nails! - ced'_
 ## Credits
 
 Not Written in [LocomotiveJs](http://locomotivejs.org/).  
-Not Inspired to [FOAAS (Fuck Off As A Service)](https://foaas.com/)
+Not Inspired to [FOAAS (Fuck Off As A Service)](http://foaas.com/)
 
 __All contributions are very welcome.__
 
