@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "locomotive": "0.3.x",
-    "express": "3.x.x",
+    "express": "4.15.3",
     "connect-powered-by": "0.1.x",
     "ejs": "0.8.x",
     "marked": "~0.2.9",
