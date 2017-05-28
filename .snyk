@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - locomotive > express > connect > finalhandler > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > connect > body-parser > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - express > connect > compression > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > connect > compression > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > connect > connect-timeout > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > connect > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > connect > express-session > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > send > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > connect > morgan > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > connect > serve-index > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > connect > serve-static > send > debug > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > send > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > connect > connect-timeout > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > connect > serve-static > send > ms:
+        patched: '2017-05-28T05:02:05.208Z'
+    - locomotive > express > connect > serve-favicon > ms:
+        patched: '2017-05-28T05:02:05.208Z'
