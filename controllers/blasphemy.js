@@ -1,4 +1,4 @@
-const normalizeDivinity = (divinity) => divinity.charAt(0).toUpperCase() + divinity.slice(1);
+const normalizeDivinity = (divinity = '') => divinity.charAt(0).toUpperCase() + divinity.slice(1);
 const withAutor = (obj, author) => author ? Object.assign(obj, { subtitle: `- ${author}`}) : obj;        
 const possessivise = (divinity) => {
   const isEndingInS = (divinity.charAt(divinity.length-1) === 's');
@@ -6,6 +6,7 @@ const possessivise = (divinity) => {
 }
 
 const swear = params => {
+  console.log(params)
   const divinity = normalizeDivinity(params.divinity);
   const animal = normalizeDivinity(params.animal);
 
