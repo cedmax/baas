@@ -4,7 +4,7 @@ const config = require('../config/page');
 const template = require('../views/home');
 
 module.exports = (request, reply) => {
-  fs.readFile(`./README.md`, 'utf8', function (err, data) {
+  fs.readFile(`${__dirname}/../README.md`, 'utf8', function (err, data) {
     if (err) {
         throw err;
     }
