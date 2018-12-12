@@ -29,7 +29,7 @@ fastify.get('/nails/:divinity/:author', renderer(blasphemy.nails));
 
 
 // Run the server!
-fastify.listen(20178, function (err) {
+fastify.listen(80, function (err) {
   if (err) throw err
   console.log(`server listening on ${fastify.server.address().port}`)
 })

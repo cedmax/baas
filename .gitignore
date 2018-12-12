@@ -11,5 +11,7 @@ pids
 logs
 results
 node_modules
+certs
+.openode
 
 npm-debug.log
